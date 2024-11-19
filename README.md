@@ -14,13 +14,13 @@ A list of compiler (mostly) and programming language related resources
     - [Analysis](#analysis)
     - [Assemblers](#assemblers)
     - [Linkers](#linkers)
+    - [General Implementations](#general-implementations)
 - [Misc](#misc)
     - [Runtime](#runtime)
     - [JIT](#jit)
     - [Loaders](#loaders)
     - [Dynamic Linking](#dynamic-linking)
     - [See Also](#see-also)
-
 
 # General
 ## Books
@@ -62,6 +62,9 @@ https://github.com/SeaOfNodes/Simple
 
 [Mem2Reg under the hood](https://longfangsong.github.io/en/mem2reg-made-simple/) - Explains more indepth about mem2reg
 
+### Equivalence Graphs (egraphs)
+https://bernsteinbear.com/blog/whats-in-an-egraph/
+
 ## Analysis
 ### Liveness analysis
 https://www.cl.cam.ac.uk/teaching/1718/OptComp/slides/lecture03.pdf
@@ -76,6 +79,16 @@ https://klasses.cs.uchicago.edu/archive/2004/spring/22620-1/docs/liveness.pdf
 [Wasm instruction Reference](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference) - Reference of wasm instructions and their encoding
 
 ## Linkers
+
+## General Implementations
+[LLVM](https://github.com/llvm/llvm-project)
+[Cranelift](https://github.com/bytecodealliance/wasmtime/tree/main/cranelift)
+[Qbe](https://c9x.me/compile/)
+[Ygen](https://github.com/Cr0a3/ygen)
+[B3](https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore/b3) and [B3-rs](https://github.com/playXE/b3-rs)
+[TurboFan](https://github.com/v8/v8/tree/main/src/compiler/)
+[Maglev](https://github.com/v8/v8/tree/main/src/maglev)
+[LibFirm](https://github.com/libfirm/libfirm)
 
 # Misc
 ## JIT
