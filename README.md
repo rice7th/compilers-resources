@@ -59,6 +59,9 @@ https://github.com/SeaOfNodes/Simple
 [Optir](https://github.com/jameysharp/optir) - An attempt to combine RVSDG and Equivalence graphs
 
 ## Optimizations
+
+[Mem2Reg under the hood](https://longfangsong.github.io/en/mem2reg-made-simple/) - Explains more indepth about mem2reg
+
 ## Analysis
 ### Liveness analysis
 https://www.cl.cam.ac.uk/teaching/1718/OptComp/slides/lecture03.pdf
@@ -68,6 +71,10 @@ https://www.inf.ed.ac.uk/teaching/courses/ct/17-18/slides/llvm-4-liveness.pdf
 https://klasses.cs.uchicago.edu/archive/2004/spring/22620-1/docs/liveness.pdf
 
 ## Assemblers
+
+[X86 WinFastCall Reference](https://andreaspk.github.io/posts/2019-02-16-Windows%20Calling%20Convention.html) - A reference for the x86 Windows Fastcall Calling Convention
+[Wasm instruction Reference](https://developer.mozilla.org/en-US/docs/WebAssembly/Reference) - Reference of wasm instructions and their encoding
+
 ## Linkers
 
 # Misc
